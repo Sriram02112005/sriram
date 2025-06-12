@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sriram K | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
-    <img src="profile.jpg" alt="Sriram's Photo" class="profile-img">
-    <h1>Hi, I'm Sriram K</h1>
-    <p>Web Developer | Programmer | Tech Enthusiast</p>
+    <div class="container header-content">
+      <img src="profile.jpg" alt="Sriram's Photo" class="profile-img" />
+      <div>
+        <h1>Hi, I'm Sriram K</h1>
+        <p>Web Developer & Programmer | Tech Enthusiast</p>
+      </div>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a passionate web developer with a focus on building clean and responsive websites.
-      I love learning new technologies and solving real-world problems through code.
-    </p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python, Java</li>
-      <li>React.js, Node.js</li>
-      <li>Git & GitHub</li>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </section>
+  </nav>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Portfolio Website</h3>
-      <p>A personal website to showcase my work and skills.</p>
-    </div>
-    <div class="project">
-      <h3>Todo App</h3>
-      <p>A simple task management app using JavaScript and local storage.</p>
-    </div>
-  </section>
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate web developer focused on creating clean, responsive websites and web apps.
+        I enjoy learning new technologies and using them to solve real-world problems.
+      </p>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: sriram@example.com</p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/sriramk</a></p>
-    <p>GitHub: <a href="#">github.com/sriramk</a></p>
-  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Java</li>
+        <li>React.js, Node.js</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal website to showcase my work and skills using HTML, CSS, and responsive design.</p>
+      </div>
+      <div class="project">
+        <h3>Todo App</h3>
+        <p>A JavaScript-based task manager with local storage support for offline functionality.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:sriramsreeku10@gmail.com">sriramsreeku10@gmail.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/sriramk</a></p>
+      <p>GitHub: <a href="#">github.com/sriramk</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>© 2025 Sriram K. All rights reserved.</p>
