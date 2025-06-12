@@ -30,7 +30,7 @@ header {
 }
 
 .header-content {
-  display: flex;
+  display: block;
   align-items: center;
   gap: 20px;
 }
@@ -50,7 +50,7 @@ nav {
 }
 
 .nav-links {
-  display: block;
+  display: flex;
   justify-content: center;
   list-style: none;
   padding: 15px 0;
