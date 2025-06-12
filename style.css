@@ -50,7 +50,7 @@ nav {
 }
 
 .nav-links {
-  display: flex;
+  display: block;
   justify-content: center;
   list-style: none;
   padding: 15px 0;
